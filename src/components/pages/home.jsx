@@ -1,7 +1,7 @@
 "use strict";
 import React from "react";
-import { Grid, Row, Col, Jumbotron } from "react-bootstrap";
-import { LinkContainer } from "react-router-botstrap";
+import { Grid, Row, Col, Jumbotron, Button } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import { Link } from 'react-router';
 
 const Home = React.createClass ({
@@ -35,4 +35,4 @@ const Home = React.createClass ({
   }
 
 });
-module.exports = Home;
+export default Home;

@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from './layout.jsx';
 import { Router, Route, browserHistory } from 'react-router'
-import Products from "./pages/products.jsx";
-import Home from "./pages/home.jsx";
-import Company from "./pages/company.jsx";
-import Item from "./pages/item.jsx";
-import Checkout from "./pages/checkout.jsx";
-import Receipt from "./pages/receipt.jsx";
+import Products from "./components/pages/products.jsx";
+import Home from "./components/pages/home.jsx";
+import Company from "./components/pages/company.jsx";
+import Item from "./components/pages/item.jsx";
+import Checkout from "./components/pages/checkout.jsx";
+import Receipt from "./components/pages/receipt.jsx";
 
 const Routes = (
   <Router history={browserHistory}>

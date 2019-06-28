@@ -23,4 +23,5 @@ const Company = React.createClass ({
   }
 
 });
-module.exports = Company;
+
+export default Company;

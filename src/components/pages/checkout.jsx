@@ -8,4 +8,4 @@ const Checkout = React.createClass ({
     );
   }
 });
-module.exports = Checkout;
+export default Checkout;

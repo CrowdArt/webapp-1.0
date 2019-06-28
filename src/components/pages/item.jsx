@@ -8,4 +8,4 @@ const Item = React.createClass ({
     );
   }
 });
-module.exports = Item;
+export default Item;

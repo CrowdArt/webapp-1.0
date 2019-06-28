@@ -8,4 +8,5 @@ const Receipt = React.createClass ({
     );
   }
 });
-module.exports = Receipt;
+
+export default Receipt;
